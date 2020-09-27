@@ -1,8 +1,8 @@
 <template>
 	<van-card
-	  :desc="newsDate.author_name"
-	  :title="newsDate.title"
-	  :thumb="newsDate.thumbnail_pic_s"
+	  :desc="newsData.author_name"
+	  :title="newsData.title"
+	  :thumb="newsData.thumbnail_pic_s"
 	>
 	</van-card>	
 </template>
@@ -16,7 +16,7 @@ export default {
     [Button.name]: Button
   },
   props: {
-    newsDate: Object
+    newsData: Object
   },
   data () {
     return {

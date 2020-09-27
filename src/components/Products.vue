@@ -13,7 +13,7 @@
 	    :name="item.id"
 	  >
 		  <apo-cell
-			:newsDate="item"
+			:newsData="item"
 			:key="item.id"
 		  />
 	  </van-radio>

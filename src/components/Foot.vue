@@ -14,33 +14,15 @@ import { Tabbar, TabbarItem } from 'vant';
 
 export default {
 	name: 'apo-foot',
-
-    mixins: [],
-
 	components: {
 		[Tabbar.name]: Tabbar,
 		[TabbarItem.name]: TabbarItem
 	},
-
-    props: {},
-
     data () {
       return {
       	active: 0
       }
-    },
-
-    computed: {},
-
-    watch: {},
-
-    created () {},
-
-    mounted () {},
-
-    destroyed () {},
-
-    methods: {}
+    }
 }
 
 </script>

@@ -1,0 +1,6 @@
+/node_modules
+/dist
+/target
+.classpath
+.project
+.DS_Store
